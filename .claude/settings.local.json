@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /a \"c:\\Users\\Administrator\\Desktop\\EEG_Identification\")",
+      "Bash(cat:*)",
+      "Bash(jupyter:*)",
+      "Bash(pip --version:*)",
+      "Bash(python -m ipykernel:*)",
+      "Bash(python:*)",
+      "Bash(where:*)",
+      "Bash(\"C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe\" --version)",
+      "Bash(\"C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe\" -m pip --version)",
+      "Bash(\"C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe\" -m pip list)",
+      "Bash(\"C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe\" -m pip install ipykernel jupyter notebook jupyterlab --quiet)",
+      "Bash(\"C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe\" -m ipykernel install --user --name admin_python_314 --display-name \"Python 3.14 (Administrator)\")",
+      "Bash(\"C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe\" -m jupyter kernelspec list)",
+      "Bash(\"C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe\" -c \"import sys; print(''Python path:'', sys.executable); import jupyter; import ipykernel; print(''Jupyter and ipykernel are working'')\")",
+      "Bash(findstr:*)",
+      "Bash(code:*)",
+      "Bash(dir /a \"%USERPROFILE%\\.vscode\\extensions\")",
+      "Bash(dir \"C:\\Users\\Administrator\\.vscode\\extensions\")",
+      "Bash(powershell -Command \"Remove-Item -Path ''C:\\Users\\Administrator\\.vscode\\extensions\\ms-toolsai.jupyter-2023.8.1002501831'' -Recurse -Force\")",
+      "Bash(powershell -Command:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

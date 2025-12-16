@@ -20,7 +20,8 @@
       "Bash(dir /a \"%USERPROFILE%\\.vscode\\extensions\")",
       "Bash(dir \"C:\\Users\\Administrator\\.vscode\\extensions\")",
       "Bash(powershell -Command \"Remove-Item -Path ''C:\\Users\\Administrator\\.vscode\\extensions\\ms-toolsai.jupyter-2023.8.1002501831'' -Recurse -Force\")",
-      "Bash(powershell -Command:*)"
+      "Bash(powershell -Command:*)",
+      "Bash(dir:*)"
     ],
     "deny": [],
     "ask": []
